@@ -9,7 +9,7 @@ public class Position {
         this.column = column;
     }
     public int getRow() {
-        return row;
+        return this.row;
     }
     public void setRow(int row) {
         this.row = row;
@@ -20,6 +20,11 @@ public class Position {
     public void setColumn(int column) {
         this.column = column;
     }
+
+    public void setValues(int row, int column) {
+		this.row = row;
+		this.column = column;
+	}
     
     @Override
     public String toString() {
